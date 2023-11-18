@@ -12,6 +12,7 @@
     --slate-gray : #708090;
     --dark-gray :#A9A9A9;
     --light-slate-gray :#778899;
+    --dark-blue:#0000CD;
 }
 
 *
@@ -62,7 +63,7 @@ top: 0%;
     border: none;
     border-radius: 0 20px 0 0;
     padding: 2px;
-    background-color: var(--orange-red);
+    background-color: var(--dark-blue);
     color: var(--slate-gray);
     width: 5%;
     font-weight: bold;
@@ -82,7 +83,7 @@ justify-content: center;
 
 nav ul a
 {
-    color: var(--orange-red);
+    color: var(--dark-blue);
 }
 
 nav ul a:hover
@@ -156,7 +157,7 @@ nav ul a:hover
 {
     margin: 70px auto;
     padding: 20px;
-    background: var(--slate-gray);
+    background: var(--dark-blue);
     border-radius: 5px;
     width: 30%;
     position: relative;
@@ -182,7 +183,7 @@ nav ul a:hover
 
 .popup .close:hover 
 {
-    color: var(--orange-red);
+    color: var(--dark-blue);
 }
 
 .content 
@@ -229,7 +230,7 @@ color: var(--orange-red);
     background-color: var(--green);
     padding: 5%;
     border-radius: 10px;
-    color: var(--orange-red);
+    color: var(--dark-blue;
 }
 .pesan img
 {
