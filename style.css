@@ -12,7 +12,7 @@
     --slate-gray : #708090;
     --dark-gray :#A9A9A9;
     --light-slate-gray :#778899;
-    
+    --dark-blue :#0000CD;
 }
 
 *
@@ -44,8 +44,8 @@ top: 0%;
 
 .title
 {
-    color: #0000CD;
-    border-bottom: 1px solid #0000CD;
+    color: var(--dark-blue);
+    border-bottom: 1px solid var(--dark-blue);
     font-size: 15pt;
 }
 
@@ -63,7 +63,7 @@ top: 0%;
     border: none;
     border-radius: 0 20px 0 0;
     padding: 2px;
-    background-color: #0000CD;
+    background-color: var(--dark-blue);
     color: var(--slate-gray);
     width: 5%;
     font-weight: bold;
@@ -83,7 +83,7 @@ justify-content: center;
 
 nav ul a
 {
-    color: #0000CD;
+    color: var(--dark-blue);
 }
 
 nav ul a:hover
@@ -183,7 +183,7 @@ nav ul a:hover
 
 .popup .close:hover 
 {
-    color: #0000CD;
+    color: var(--dark-blue);
 }
 
 .content 
@@ -214,7 +214,7 @@ nav ul a:hover
 
 .harga
 {
-    color: #0000CD;
+    color: var(--dark-blue);
 }
 .link a
 {
@@ -222,7 +222,7 @@ color: var(--white);
 }
 .link a:hover
 {
-color: var(--orange-red);
+color: var(--dark-blue);
 }
 
 .pesan
@@ -230,7 +230,7 @@ color: var(--orange-red);
     background-color: var(--green);
     padding: 5%;
     border-radius: 10px;
-    color: var(--dark-blue;
+    color: var(--dark-blue);
 }
 .pesan img
 {
@@ -260,7 +260,7 @@ color: var(--orange-red);
  
 html
 {
-    scroll-behavior: smooth;
+scroll-behavior: smooth;
 }
  
  
