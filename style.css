@@ -1,4 +1,4 @@
-:root
+ :root
 {
     --blue : #2c2546;
     --dark-blue : #1b1535;
@@ -320,14 +320,27 @@ footer
      padding-left: 2rem;
      font-size: 13pt;
     }
-
+    .popup
+    {
+      width: 50%;
+    }
+    
+    
     .sosmed
     {
      font-size: 10pt;
      padding-left: 6rem;
 
     }
-
+    .popup .close
+   { 
+     position: fixed;
+     top: 10%;
+     right: 0;
+     left: 70%;
+     bottom: 0;
+     
+   }
     .sosmed img
     {
      width: 10%;
